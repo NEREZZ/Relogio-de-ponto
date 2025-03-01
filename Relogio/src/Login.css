@@ -1,0 +1,123 @@
+:root {
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+    padding-top: 100px;
+    height: 100vh; /* Garante que ocupa a altura total da tela */
+    margin: 0; /* Remove margens padrão */
+    font-family: 'Inter', system-ui, 'Avenir', Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #C29869;
+    
+    transform: scale(0.9);
+    text-align: center;
+  }
+.foto
+{
+    margin-left: 190px;
+    margin-top: -600px;
+}
+.login 
+{
+    background-color: #532E1C;
+    padding: 15px;
+    padding-top:100px ;
+    padding-bottom: 180px;
+    border-radius: 29px;   
+   
+    width: 326px; /* Definindo uma largura fixa para o formulário */
+    margin: 343px auto; /* Centralizando o formulário (100px de margem superior e auto nas laterais) */
+    text-align: center; /* Centraliza o conteúdo de texto dentro da div */
+    
+}
+
+.email input
+{
+    padding:15px 30px;
+        
+        border-radius: 29px;  
+        background-color: white;
+        color: black;
+    background-image: url('user.png');
+    background-position: 10px center; /* Ajuste a posição da imagem conforme necessário */
+    background-repeat: no-repeat;
+    padding-left: 50px; 
+    background-size: 21px,21px;
+}
+.senha input
+{
+    padding:15px 30px;
+        
+        border-radius: 29px;  
+        background-color: white;
+        color: black;
+        background-image: url('cadeado.png');
+    background-position: 10px center; /* Ajuste a posição da imagem conforme necessário */
+    background-repeat: no-repeat;
+    padding-left: 50px; 
+    background-size: 21px,21px
+}
+.marcador {
+    text-align: center;
+    margin-top: -80px;
+    margin-left: -190px;
+    
+}
+.marcador label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.esqueceuSenha {
+    
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 350px;
+    color: #ffffff;
+    
+
+}
+
+.botaoEntrar {
+    button{
+        padding: 15px 50px;
+        background-color: #ffffff;
+        border-radius: 24px;
+        border: #000;
+        color: #000;
+    }
+    text-align: center;
+    margin-top: 50px;
+    
+}
+h5{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align:center;
+    margin-left: 190px;
+    
+    color: #C29869;
+}
+a 
+{
+    color: #ffffff;
+   text-decoration:none;
+   font-family:Arial, Helvetica, sans-serif
+   
+}
+
+.criarConta
+{
+    font-family: 'Inter', system-ui, 'Avenir', Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align:center;
+    margin-left: 190px;
+    margin-top: -20px;
+    color: #ffffff;
+}
