@@ -3,10 +3,10 @@ import { createRoot } from 'react-dom/client'
 
 import './Login.css'
 
-import Login from './Login.jsx'
+import LoginPrincipal from './LoginPrincipal.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Login />
+    <LoginPrincipal />
   </StrictMode>,
 )

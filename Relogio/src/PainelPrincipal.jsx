@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Login from './Login';
+import LoginPrincipal from './LoginPrincipal';
 
 function PainelPrincipal()
 {

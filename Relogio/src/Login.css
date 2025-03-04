@@ -2,9 +2,9 @@
     display: flex;
     justify-content: center; /* Centraliza na horizontal */
     align-items: center; /* Centraliza na vertical */
-    padding-top: 100px;
+    padding-top: 10px;
     height: 100vh; /* Garante que ocupa a altura total da tela */
-    margin: 0; /* Remove margens padrão */
+   
     font-family: 'Inter', system-ui, 'Avenir', Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
@@ -18,21 +18,20 @@
   }
 .foto
 {
-    margin-left: 190px;
-    margin-top: -600px;
+    position: absolute;
+    top: -30px; /* Ajuste a posição vertical conforme necessário */
+    left: 50%;
+    transform: translateX(-50%);
 }
 .login 
 {
     background-color: #532E1C;
     padding: 15px;
-    padding-top:100px ;
+    padding-top: 50px;
     padding-bottom: 180px;
-    border-radius: 29px;   
-   
+    border-radius: 29px;
     width: 326px; /* Definindo uma largura fixa para o formulário */
-    margin: 343px auto; /* Centralizando o formulário (100px de margem superior e auto nas laterais) */
     text-align: center; /* Centraliza o conteúdo de texto dentro da div */
-    
 }
 
 .email input
@@ -63,7 +62,7 @@
 }
 .marcador {
     text-align: center;
-    margin-top: -80px;
+    margin-top: -150px;
     margin-left: -190px;
     
 }
@@ -89,9 +88,10 @@
         border-radius: 24px;
         border: #000;
         color: #000;
+        text-align: center;
+        margin-top: 30px;
     }
-    text-align: center;
-    margin-top: 50px;
+   
     
 }
 h5{
